@@ -97,3 +97,29 @@ html {
 	background-color:#ED3700;
 	cursor:pointer;
 }
+
+.services {
+	margin:0 auto;
+	text-align: center;
+	max-width:60em;
+}
+
+.services-header {
+	padding-top:3em;
+	font-weight:normal;
+	font-size:2.3em;
+	padding-bottom:0.8em;
+}
+
+.block-1, 
+.block-2,
+.block-3 {
+	display:inline-block;
+	width:235px;
+	height:250px;
+}
+
+.services h3 {
+	font-weight:normal;
+	font-size:20px;
+}
