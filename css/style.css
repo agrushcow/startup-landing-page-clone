@@ -1,4 +1,4 @@
-/* Removes img
+img
 html {
   box-sizing: border-box;
 }
@@ -114,12 +114,31 @@ html {
 .block-1, 
 .block-2,
 .block-3 {
-	display:inline-block;
+	display:inline-table;
 	width:235px;
 	height:250px;
 }
 
 .services h3 {
 	font-weight:normal;
-	font-size:20px;
+	font-size:26px;
+}
+
+.content h3 {
+	margin:auto 0;
+	text-align:center;
+}
+
+.content .icons {
+	margin:auto 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.icons {
+	display:inline;
+}
+
+.social hr {
+	color:#EAEBEC;
 }
